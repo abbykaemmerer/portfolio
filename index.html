@@ -5,40 +5,161 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Muli|Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/36a8ab872f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
     <title>Abby's New Portfolio</title>
 </head>
 <body>
     <div class="container">
-        <nav class="navbar">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+            <button id="toggler" class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navLinks">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">ABOUT</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a href="#experience" class="nav-link">EXPERIENCE</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">CONTACT</a>
+                    </li>
+
+                </ul>
+            </div>
         </nav>
         <section id="home">
-            <h1>Abby Kaemmerer</h1>
-            <p class="lead">A creative, passionate, and hardworking Austin-based Web Developer</p>
+            <header>
+                <h1>Abby Kaemmerer</h1>
+                <hr>
+                <p class="center">web developer | web design</p>
+            </header>
             <img src="imgs/abby.jpg" class="img-fluid" alt="Responsive image">
         </section>
         <section id="about">
-            <h1>About</h1>
-            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, quis!</p>
+            <div class="borderz">
+                <h1 class="title">About Me</h1>
+                <br><br>
+                <p>If you'd like to learn a bit about me, continue reading. If not, here is a picture of my <a href='https://res.cloudinary.com/abbykaemmerer/image/upload/v1562688662/Tooth_wyb1cq.jpg'> cat </a>.
+                </p>
+                <p class="about">
+                    I currently work as a developer in an Agile environment for a IT consulting firm where we work mostly with AngularJS, Java, SQL, JavaScript, HTML, CSS, BitBucket, Jenkins, ALM, and Swagger. After graduating from the University of Missouri, I decided to continue my education by enrolling in a Front-End Development bootcamp. We learned JavaScript, Node.js, HTML, CSS, version control, GitHub, Netlify, and Trello. From my education and professional experience, I have learned how to optimize my time while working with many different teams and people. My experiences have taught me to be persistent, curious and efficient while also maintaining my creativity and passion for web development.
+                </p>
+                <br><br>
+                <div>
+                    <ul class="facts">
+                    <span>
+                    Fun Facts:
+                    </span>
+                    <li>&#8226; My cat's name is Toothless. He has teeth.</li>
+                    <li>&#8226; I've watched every Marvel and Star Wars movie over four times.</li>
+                    <li>&#8226; I can wiggle my ears.</li>
+                    <li>&#8226; I used to have a snake named Ludacris and three turtles named Abbie, Abi, and Abbey.</li>
+                    </ul>
+                </div>
+            </div>    
         </section>
-        <section id="experience">
-            <h1>Service</h1>
-            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, quis!</p>
-        </section>
+        <!-- <section id="experience">
+            <div class="borderz">
+                <h1 class="title">Experience</h1>
+                <h3>Web Design</h3>
+                <ul class="underline">TDK Technologies</ul>
+                    <li>&#8226; Use Java, JavaScript, CSS, HTML, Angular, Springboot, Swagger and more to maintain and enhance Mastercard’s Loyalty Rewards System</li>
+                    <li>&#8226; Develop, test, and deploy customized fields, forms, and scripts</li>
+                    <li>&#8226; Work closely with Senior, Lead, and other Developers in an Agile environment</li>
+                <br>
+                <ul class="underline">Savvy Coders</ul>
+                <li>&#8226; Curriculum included: HTML 5, CSS 3, JavaScript ES6, JSON, Node.js, axios, npm, UX/UI, git, Github, Netlify, Trello, Wireframing, and Agile methodology</li>
+                <br><br>
+                <h3>Education</h3>
+                <ul class="underline">University of Missouri</ul>
+                <li>&#8226; Bachelor of Science: Fisheries and Wildlife Sciences</li>
+                <li>&#8226; Minor: Biological Sciences</li>
+                <br><br>
+                <h3>Skills</h3>
+                <div id="skills1">
+                    <li>JavaScript</li>
+                    <li>Angular</li>
+                    <li>Sketch</li>
+                    <li>HTML</li>
+                </div>
+                <div id="skills2">
+                    <li>Java</li>
+                    <li>CSS</li>
+                    <li>Node.js</li>
+                    <li>Wordpress</li>
+                </div>
+                <div id="skills3">
+                    <li>npm</li>
+                    <li>Time Management</li>
+                    <li>Problem Solving</li>
+                    <li>git</li>
+                </div>
+            </div>
+        </section> -->
         <section id="portfolio">
-            <h1>Service</h1>
-            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, quis!</p>
-        </section>
-        <section id="contact">
-            <h1>Contact</h1>
-            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, quis!</p>
+            <div class="borderz">
+                <h1 class="title">Portfolio</h1>
+                <br><br>
+                    <p><a href="https://abby-kaemmerer-capstone.netlify.com"> 4PAWS</a>
+                    <br>An eCommerce web application designed to help pet owners find the best products for their pets. It is a state driven, modular single page application with functional components created using JavaScript ES6, HTML 5, CSS 3, JSON, Node.js, npm, and git.
+                    </p>
+                    <br>
+                    Since graduating SavvyCoders and working at TDK Technologies, I have wanted to continue learning and growing as a Front-End Developer. I have created these projects, landing pages, and games in order to do so.
+                    <li>&#8226;<a href="https://thegreatestcolorgameever.netlify.com" target="_blank"> The RGB Game</a></li>
+                    <li>&#8226;<a href="https://mueseumofcandy.netlify.com" target="_blank"> Museum of Candy</a></li>
+                    <li>&#8226;<a href="https://catadoption.netlify.com" target="_blank"> Cat Adoption Landing Page</a></li>
+                    <br>
+                    Works In Progress:
+                    <li>&#8226; Transitioning my portfolio to a more responsive application</li>
+                    <li>&#8226; Bachelorette Invite</li>
+                    <li>&#8226; Recipe Catalog</li>
+                    <p class="git">View my resume <a href="https://www.dropbox.com/s/250zc3miyig3a8w/RESUME.pdf?dl=0">resume</a> and <a href="https://github.com/abbykaemmerer" target="_blank">GitHub page </a>!</p>
+            </div>
+            </section>
+        <div id="contact">
+            <div class="borderz">
+                <h1 class="title">Say Hey!</h1>
+                <br><br>
+                <form action="https://formspree.io/kaemmerer.abby@gmail.com" method="POST" class="container" id="contact-form" >
+                    <div id="form">
+                    <span>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="userName" />
+                      </span>
+                      <span>
+                        <label for="user-email">Email</label>
+                        <input
+                          type="email"
+                          name="userEmail"
+                          id="user-email"
+                          placeholder="jonsnow@thewall.com"
+                        />
+                      </span>
+                      <span>
+                        <label for="fone">Phone</label>
+                        <input type="tel" name="userFone" id="fone" />
+                      </span>
+                    </div>
+                      <div id="text" class="flex flex--column">
+                        <label for="msg">Message</label>
+                        <textarea name="msg" id="msg" cols="50" rows="5"></textarea>
+                      </div>
+                      <div class="buttons">
+                        <input type="submit" value="Send Message" />
+                        <input type="reset" value="Clear Form" />
+                      </div>
+                    </form>
+            </div>
         </section>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -46,5 +167,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
     <script src="index.js"></script>
+    <footer>
+        &copy; 2019 Abby Kaemmerer
+        <a href="https://github.com/abbykaemmerer" target="_blank">
+          <span class="fab fa-github"></span"></a>
+        <a href="https://www.linkedin.com/in/abby-kaemmerer-80331766/" target="_blank">
+          <span class="fab fa-linkedin"></span></a>
+        </footer>`
 </body>
 </html>
