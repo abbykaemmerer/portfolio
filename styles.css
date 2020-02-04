@@ -133,8 +133,9 @@ section a:hover{
     color: #636363;
     background: #f1ecec;
     width: 50%;
-    padding: 15px;
-    box-shadow: 1px 1px 11px 4px #d4d1d1;
+    padding: 25px;
+    box-shadow: 1px 1px 11px 4px #dedddd;
+    border-radius: 30px;
 }
 
 .borderz div {
