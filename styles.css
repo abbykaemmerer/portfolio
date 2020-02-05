@@ -175,6 +175,13 @@ h3 {
 
 #form input {
     width: 250px;
+    border: 1px solid #dedddd;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+#form span {
+    margin: 0 5px;
 }
 
 #text {
@@ -185,6 +192,19 @@ h3 {
     align-items: center;
     padding: 10px;
 }
+#text textarea {
+    border: 1px solid #dedddd;
+    padding: 2px;
+    border-radius: 3px;
+    width: 500px
+}
+#contact {
+    display: flex;
+    align-items: inherit
+}
+#contact .title {
+    margin-top: 2em;
+}
 
 .buttons input {
     margin: 5px;
@@ -193,6 +213,22 @@ h3 {
     border: #dccaca;
     box-shadow: 1px 1px 1px #dccaca;
     color: #636363;
+}
+@media screen and (max-height: 750px){
+    section {
+        margin-top: 5em;
+    }
+
+    #about .title {
+        margin-top: 5em;
+    }
+
+    .git {
+        margin-top: 0;
+    }
+    .facts {
+        margin-bottom: 15em;
+    }
 }
 
 @media screen and (max-width: 1200px) {
