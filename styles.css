@@ -175,6 +175,11 @@ h3 {
     margin-top: 5em;
 }
 
+.hey {
+    display: flex;
+    flex-direction: column;
+}
+
 #form {
     display: flex;
     justify-content: space-evenly;
@@ -208,9 +213,6 @@ h3 {
 #contact {
     display: flex;
     align-items: inherit
-}
-#contact .title {
-    margin-top: 1.2em;
 }
 
 .buttons input {
