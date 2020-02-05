@@ -15,6 +15,13 @@ h1 {
     font-family: 'Muli', sans-serif;
 }
 
+hr {
+    margin: 0 auto;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    width: 50%;
+}
+
 footer {
     padding-top: 2em;
     postion: absolute;
@@ -203,7 +210,7 @@ h3 {
     align-items: inherit
 }
 #contact .title {
-    margin-top: 2em;
+    margin-top: 1.2em;
 }
 
 .buttons input {
