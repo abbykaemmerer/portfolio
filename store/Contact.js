@@ -2,7 +2,7 @@ import links from './Links';
 
 export default {
     'pageContent': 'Contact',
-    'title': 'Contact Me',
+    'title': 'Say Hey!',
     'links': links
 
 };

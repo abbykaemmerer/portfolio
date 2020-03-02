@@ -127,19 +127,33 @@ section a:hover{
     border-radius: 30px;
 }
 
-.borderz div {
-    display: flex;
-    justify-content: center;
+.carousel {
+    width:640px;
+    height:360px;
+    margin: 0 auto;
+  }
+
+#portfolio img {
+    border-radius: 30px;
 }
+
 h3 {
     font-size: 1.5em;
 }
+
 .underline {
     text-decoration: underline;
 }
 
 .git {
     text-align: center;
+    margin-top: 1em;
+    color: #90d8ef;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+.git a {
+    color: #90d8ef;
 }
 
 #skills1, #skills3 {
@@ -150,11 +164,6 @@ h3 {
 #skills2 {
     display: flex;
     justify-content: space-evenly;
-}
-
-.git {
-    text-align: center;
-    margin-top: 5em;
 }
 
 .hey {

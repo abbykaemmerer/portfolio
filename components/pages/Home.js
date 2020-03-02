@@ -1,7 +1,7 @@
-export default () => `
+export default (state) => `
 <section id="home">
 <header>
-    <h1>Abby Kaemmerer</h1>
+    <h1 class="title">${state.title}</h1>
     <hr>
     <p class="center">web developer | web design</p>
 </header>

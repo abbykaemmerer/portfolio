@@ -1,8 +1,8 @@
-export default () => `
+export default (state) => `
 <section id="contact">
 <div class="borderz">
     <div class="hey">
-        <h1 class="title">Say Hey!</h1>
+        <h1 class="title">${state.title}</h1>
         <hr>
         <br><br>
         <form action="https://formspree.io/kaemmerer.abby@gmail.com" method="POST" class="container" id="contact-form" >
