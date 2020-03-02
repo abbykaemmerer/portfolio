@@ -4,8 +4,15 @@
   "description": "Welcome, please hire me.",
   "main": "index.js",
   "scripts": {
-    "build": "parcel build index.html && cp _redirects ./dist/",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint src test --fix",
+    "prebuild": "npm run lint && npm test",
+    "build": "npm run bundle && npm run minify",
+    "build-amd": "npm run bundle-amd && npm run minify-amd",
+    "bundle": "rollup -c",
+    "bundle-amd": "rollup -c rollup.config.amd.js",
+    "minify": "uglifyjs dist/milsymbol.development.js -o dist/milsymbol.js --comments --compress --mangle --source-map",
+    "minify-amd": "uglifyjs dist/amd/milsymbol.development.js -o dist/amd/milsymbol.js --comments --compress --mangle --source-map",
+    "test": "tead --coverage"
   },
   "repository": {
     "type": "git",
@@ -24,6 +31,7 @@
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
+    "@babel/node": "^7.8.4",
     "axios": "^0.18.1",
     "cloudinary": "^1.18.1",
     "cloudinary-core": "^2.8.0",
