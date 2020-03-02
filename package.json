@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Welcome, please hire me.",
   "main": "index.js",
-  "main": "index.js",
   "scripts": {
     "build": "parcel build index.html && cp _redirects ./dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
