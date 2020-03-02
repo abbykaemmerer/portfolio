@@ -1,9 +1,20 @@
-import Header from '.components/Header';
+import Navigation from './components/Navigation';
+import Main from './components/Main';
+import Footer from './components/Footer';
 
-import Main from '.components/Main';
+import * as states from './store';
 
-import Footer from '.components/Footer';
+const root = document.querySelector('#root');
 
+function render(state){
+    root.innerHTML = `
+    ${Navigation(state)}
+    ${Main(state)}
+    ${Footer(state)}
+    `;
+}
+
+render(states.Home);
 
 const scroll = new SmoothScroll('.navbar a[href*="#"]', {
     'speed': 800
