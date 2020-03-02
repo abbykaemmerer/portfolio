@@ -6,7 +6,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #636363;
     line-height: 1.6;
-    height: 100vh;
+    border: 8px solid #dccaca;
 }
 
 h1 {
@@ -39,16 +39,6 @@ footer a {
 .container {
     width: 100%;
     height: 100%;
-}
-
-.borderz {
-    border: 2px solid #dccaca;
-    margin: 10px;
-    padding: 15px;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .navbar-toggler-icon {
