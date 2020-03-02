@@ -41,6 +41,11 @@ footer {
 footer a {
     color: #733938;
 }
+
+footer a:hover {
+    color: #90d8ef;
+}
+
 .center {
     text-align: center;
 }
@@ -71,7 +76,6 @@ nav {
 .nav-menu a:hover {
     font-weight: bolder;
     color: #733938;
-
 }
 
 .img-fluid {
