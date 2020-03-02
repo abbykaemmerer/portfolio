@@ -16,7 +16,7 @@ export default () => `
         <li>&#8226; Transitioning my portfolio to a more responsive application</li>
         <li>&#8226; Bachelorette Invite</li>
         <li>&#8226; Recipe Catalog</li>
-        <p class="git">View my resume <a href="https://www.dropbox.com/s/250zc3miyig3a8w/RESUME.pdf?dl=0">resume</a> and <a href="https://github.com/abbykaemmerer" target="_blank">GitHub page </a>!</p>
+        <p class="git">View my <a href="https://www.dropbox.com/s/250zc3miyig3a8w/RESUME.pdf?dl=0">resume</a> and <a href="https://github.com/abbykaemmerer" target="_blank">GitHub page </a>!</p>
 </div>
 </section>
 
