@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Welcome, please hire me.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "lint": "eslint src test --fix",
     "prebuild": "npm run lint && npm test",
@@ -37,6 +38,7 @@
     "cloudinary-core": "^2.8.0",
     "lodash": "^4.17.15",
     "navigo": "^7.1.2",
-    "node": "^13.9.0"
+    "node": "^13.9.0",
+    "node.js": "0.0.0"
   }
 }
