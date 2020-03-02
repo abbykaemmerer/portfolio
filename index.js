@@ -6,7 +6,7 @@ import * as states from './store';
 
 import { capitalize } from './node_modules/lodash';
 
-import Navigo from 'navigo';
+import Navigo from './node_modules/navigo';
 const router = new Navigo(window.location.origin);
 
 const root = document.querySelector('#root');
