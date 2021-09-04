@@ -34,7 +34,7 @@ export default (state) => `
           <div>
             <input type="tel" name="phone"/>
           </div>
-          <legend>Message for OCM</legend>
+          <legend>Message</legend>
           <div>
           <textarea name="msg" cols="100" rows="5"></textarea>
           </div>
