@@ -15,16 +15,14 @@ export default (state) => `
     <p>Hopefully you enjoyed reading about my learning endeavors but if you didn't here's a consolation <a href='https://res.cloudinary.com/abbykaemmerer/image/upload/v1562688662/Tooth_wyb1cq.jpg'> cat </a> picture.
     </p>
     <br><br>
-    <div>
-        <ul class="facts">
-        <span>
-        Fun Facts:
-        </span>
-        <li>&#8226; My cat's name is Toothless. He has teeth.</li>
-        <li>&#8226; I've watched every Marvel and Star Wars movie over four times.</li>
-        <li>&#8226; I can wiggle my ears.</li>
-        <li>&#8226; I used to have a snake named Ludacris and three turtles named Abbie, Abi, and Abbey.</li>
-        </ul>
+    <div class="facts-div">
+        <h3>Fun Facts</h3>
+        <div class="facts-container">
+            <div class="facts">My cat's name is Toothless. He has teeth.</div>
+            <div class="facts">I've watched every Marvel and Star Wars movie over four times.</div>
+            <div class="facts">I can wiggle my ears.</div>
+            <div class="facts">I used to have a snake named Ludacris and three turtles named Abbie, Abi, and Abbey.</div>
+        </div>
     </div>
     <br>
 </div>

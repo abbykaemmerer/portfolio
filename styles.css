@@ -14,7 +14,7 @@ header {
     margin: 0 auto 50px;
 }
 
-#about, #contact {
+#home, #about, #contact {
     height: 100vh;
 }
 
@@ -137,14 +137,38 @@ section a:hover{
     text-decoration: none;
 }
 
-.facts {
-    color: #636363;
+.facts-div {
+    border: #dccac9 solid 1px;
+    padding: 15px;
+    border-radius: 3px;
     background: #f1ecec;
     width: 50%;
-    padding: 25px;
-    box-shadow: 1px 1px 11px 4px #dedddd;
-    border-radius: 30px;
+    margin: 0 auto;
 }
+
+.facts-div h3 {
+    color: #733938;
+}
+
+.facts {
+    color: #ffffff;
+    background: #dccac9;
+    padding: 25px;
+    box-shadow: 1px 1px 11px 4px #a98c89;
+    border-radius: 30px;
+    margin: 15px;
+}
+
+.facts-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 0px;
+    grid-template-areas:
+      ". . ";
+    width: 100%;
+    height: 100%;
+  }
 
 .carousel {
     width:640px;
@@ -158,6 +182,7 @@ section a:hover{
 
 h3 {
     font-size: 1.5em;
+    text-align: center;
 }
 
 .underline {
