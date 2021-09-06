@@ -25,17 +25,21 @@ export default (state) => `
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        <p class="git">view my <a href="https://www.dropbox.com/s/i99crph55wtkiz9/RESUME1.pdf?dl=0">resume</a> and <a href="https://github.com/abbykaemmerer" target="_blank">GitHub</a></p>
-        <h3>Personal Portfolio</h3>
-        <p>Since graduating SavvyCoders and while working at TDK Technologies, I have wanted to continue learning and growing as a Front-End Developer. I have created these projects, landing pages, and games in order to do so.</p>
-
-        <br>
+        <p class="git">view my
+            <a href="https://www.dropbox.com/s/v6572urxzmterig/RESUME2021.pdf?dl=0" target="_blank">resume</a>
+            and
+            <a href="https://github.com/abbykaemmerer" target="_blank">GitHub</a>
+        </p>
         <div>
-            <li>&#8226;<a href="https://abby-kaemmerer-capstone.netlify.com"> 4PAWS</a></li>
+            <p>Since graduating SavvyCoders and while working at TDK Technologies, I have wanted to continue learning and growing as a developer. I have created these projects, landing pages, and games in order to do so.</p>
+        </div>
+        <br>
+        <div class="work">
+            <li>&#8226;<a href="https://abby-kaemmerer-capstone.netlify.com" target="_blank"> 4PAWS</a></li>
                 <p>
                 An eCommerce web application designed to help pet owners find the best products for their pets. It is a state driven, modular single page application with functional components created using JavaScript ES6, HTML 5, CSS 3, JSON, Node.js, npm, and git.
                 <br><br>
-                4PAWS was my capstone project built at the end of my coding bootcamp. Since it was my first personal project, it hold's a special place in my heart.
+                4PAWS was my capstone project built at the end of my coding bootcamp. Since it was my first personal project, it holds a special place in my heart.
                 </p>
             <li>&#8226;<a href="https://thegreatestcolorgameever.netlify.com" target="_blank"> The RGB Game</a></li>
             <li>&#8226;<a href="https://mueseumofcandy.netlify.com" target="_blank"> Museum of Candy</a></li>

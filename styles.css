@@ -59,7 +59,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #90d8ef;
+    color: #b1e6b7;
 }
 
 .center {
@@ -127,11 +127,12 @@ section li{
 }
 
 section a{
-    color: #733938;
+    color: #80b586;
+    font-weight: bolder;
 }
 
 section a:hover{
-    color: #733938;
+    color: #b1e6b7;
     font-weight: bolder;
     text-decoration: none;
 }
@@ -156,6 +157,10 @@ section a:hover{
     box-shadow: 1px 1px 11px 4px #a98c89;
     border-radius: 30px;
     margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .facts-container {
@@ -191,12 +196,16 @@ h3 {
 .git {
     text-align: center;
     margin-top: 1em;
-    color: #b1e6b7;
+    color: #80b586;
     font-size: 1.3em;
     text-transform: uppercase;
 }
 .git a {
-    color: #b1e6b7;
+    color: #80b586;
+}
+
+.work a {
+    color: #733938;
 }
 
 #skills1, #skills3 {
