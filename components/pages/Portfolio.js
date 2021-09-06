@@ -4,16 +4,19 @@ export default (state) => `
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="${state.img4}" alt="First slide">
+                    <img class="d-block w-100" src="${state.img5}" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="${state.img1}" alt="First slide">
+                    <img class="d-block w-100" src="${state.img4}" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="${state.img2}" alt="Second slide">
+                    <img class="d-block w-100" src="${state.img2}" alt="Third slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="${state.img3}" alt="Third slide">
+                    <img class="d-block w-100" src="${state.img3}" alt="Fourth slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="${state.img1}" alt="Fifth slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -35,6 +38,10 @@ export default (state) => `
         </div>
         <br>
         <div class="work">
+            <li>&#8226;<a href="https://ocm-fict.netlify.app/" target="_blank"> Outdoor Color Magic</a></li>
+            <p>
+            A mobile responsive application promoting a fictional landscape architecture company, their services, and how to hire them.
+            </p>
             <li>&#8226;<a href="https://abby-kaemmerer-capstone.netlify.com" target="_blank"> 4PAWS</a></li>
                 <p>
                 An eCommerce web application designed to help pet owners find the best products for their pets. It is a state driven, modular single page application with functional components created using JavaScript ES6, HTML 5, CSS 3, JSON, Node.js, npm, and git.
