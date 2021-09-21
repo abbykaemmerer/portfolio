@@ -4,7 +4,7 @@ export default (state) => `
     <h1 class="title">${state.title}</h1>
     <br><br>
     <p class="about">
-        Currently, I work as a developer for a IT consulting firm based in St. Louis. My team is contracted to MasterCard where we work mostly with AngularJS, Java, SQL, JavaScript, HTML, CSS, BitBucket, Jenkins, ALM, and Swagger.
+        Currently, I work as a Software Engineer for a IT consulting firm based in St. Louis. My team is contracted to MasterCard where we work mostly with AngularJS, Java, SQL, JavaScript, HTML, CSS, BitBucket, Jenkins, ALM, and Swagger.
         <br><br>
         After graduating from the University of Missouri with a degree in Fisheries and Wildlife, I worked as a research technician for a few years before deciding to further my education by enrolling in a Front-End Development bootcamp.
         <br><br>
